@@ -9,7 +9,6 @@
   tipos = reportePorTipo();
 </script>
 
-<h2 class="text-center text-white font-semibold mb-5 pb-5">Resumen de Ventas</h2>
 <ul class="text-center">
   {#each tipos as tipo, i (i)}
     <li>

@@ -12,7 +12,7 @@
 
 <div class="py-8 px-4">
   <p class="text-white text-2xl">Número: </p>
-  <input type="text"
+  <input type="tel"
     class="rounded-full text-2xl mt-2 block w-full outline-none px-4 py-2" bind:value={numero}>
   <div class="mb-5 mt-2 px-2 py-5">
     <label class="text-xl text-orange-300 font-bold flex items-center">

@@ -34,7 +34,7 @@
       >+</button>
   </div>
   <p class="text-2xl text-white py-5">Precio:</p>
-  <input type="text" class="rounded-full p-5 pl-8 outline-0 text-xl w-full mb-10" bind:value={precio}>
+  <input type="number" class="rounded-full p-5 pl-8 outline-0 text-xl w-full mb-10" bind:value={precio}>
   <button
     class="rounded-full bg-red-200 text-2xl w-full p-5 mt-10"
     on:click={guardarRegistro}
