@@ -1,0 +1,13 @@
+---
+import Arrow from '../icons/Arrow.astro';
+const { title, page } = Astro.props;
+---
+
+<div>
+  <header class="grid grid-cols-6 items-center justify-center">
+    {
+      page && <a href={page} class="flex items-center pl-3 py-4"><Arrow class="stroke-2"></Arrow></a>
+    }
+    <h1 class={`text-center text-cyan-50 font-bold text-lg py-4 col-span-${page ? '4' : '6'}`}>{title}</h1>
+  </header>
+</div>

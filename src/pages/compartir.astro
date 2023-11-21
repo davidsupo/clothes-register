@@ -1,0 +1,11 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Share from "../components/Share.svelte";
+import Header from "../components/Header.astro";
+---
+<Layout title="Compartir">
+  <div class="p-5">
+    <Header title="K-CHINA FASHION" page="/"></Header>
+    <Share client:only></Share>
+  </div>
+</Layout>
