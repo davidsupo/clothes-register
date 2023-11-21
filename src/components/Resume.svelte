@@ -5,7 +5,6 @@
   let tipos = [];
   let resumentTotal = { cantidadTotal: 0, precioTotal: 0.0 };
 
-  /**Obtener datos*/
   resumentTotal = obtenerTotal();
   tipos = reportePorTipo();
 </script>
